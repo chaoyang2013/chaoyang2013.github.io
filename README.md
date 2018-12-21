@@ -1,1 +1,1 @@
-This is the project of my academic homemage.
+This is the project of my academic homepage.
