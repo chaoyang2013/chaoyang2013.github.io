@@ -108,7 +108,7 @@ Research Interests</h2>
 
 <div name="j4">
 <p style="color:rgb(51,51,51);font-family:verdana,sans-serif;font-size:medium;line-height:2">
-<span><strong>  [J.3] </strong></span>
+<span><strong>  [J.4] </strong></span>
 <span>
 <a href="https://ieeexplore.ieee.org/document/7997940" target="_blank" rel="nofollow">
 <strong>Multi-Sensor Kalman Filtering With Intermittent Measurements</strong></a></span><br>
