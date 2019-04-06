@@ -1,8 +1,4 @@
-<!-- <h1 name="header">Chao Yang's Homepage</h1> -->
-<!--<div style="display:inline;margin:5px 10px;float:right"><a href="https://sites.google.com/site/cyberneticschaoyang/home/HomeIcon.jpg?attredirects=0" imageanchor="1"><img width="320" height="240" src="https://sites.google.com/site/cyberneticschaoyang/home/HomeIcon.jpg" border="0"></a>
-</div>-->
 
-<br>
 
 <div name="profile">
 
@@ -16,7 +12,6 @@ yangchao AT ecust.edu.cn</a></span>
 </p>
 </div>
 
-<br>
 
 <div>
 <hr>
@@ -29,8 +24,7 @@ Research Interests</h2>
 
 <p style="color:rgb(51,51,51);font-family:verdana,sans-serif;font-size:medium;line-height:2">
 
-<span>Networked Control Systems, State Estimation, Optimal Filtering,</span><br>
-<span>Sensor Scheduling, Security in Cyber-Physical Systems.</span>
+<span>Networked Control Systems, State Estimation, Optimal Filtering,Sensor Scheduling, Security in Cyber-Physical Systems.</span>
 </p>
 
 </div>
@@ -39,9 +33,16 @@ Research Interests</h2>
 
 <h2 style="color:rgb(51,51,51)">Work Experience</h2>
 
-<div name="pd-ecust">
+<div name="ap-ecust">
 <p style="color:rgb(51,51,51);font-family:verdana,sans-serif;font-size:medium;line-height:2">
-<span><strong>2016.11-Present</strong></span><br>
+<span><strong>2018.9-Present</strong></span><br>
+<span>Associate Professor, Department of Automation, East China University of Science and Technology (ECUST), China</span>
+</p>
+</div>
+
+<div name="ltr-ecust">
+<p style="color:rgb(51,51,51);font-family:verdana,sans-serif;font-size:medium;line-height:2">
+<span><strong>2016.11-2018.8</strong></span><br>
 <span>Lecturer, Department of Automation, East China University of Science and Technology (ECUST), China</span>
 </p>
 </div>
@@ -104,6 +105,17 @@ Research Interests</h2>
 
 <h3 style="color:rgb(51,51,51)">Journal Publications</h3>
 
+
+<div name="j4">
+<p style="color:rgb(51,51,51);font-family:verdana,sans-serif;font-size:medium;line-height:2">
+<span><strong>  [J.3] </strong></span>
+<span>
+<a href="https://ieeexplore.ieee.org/document/7997940" target="_blank" rel="nofollow">
+<strong>Multi-Sensor Kalman Filtering With Intermittent Measurements</strong></a></span><br>
+<span style="padding:0px 0px 0px 50px"><strong>Chao Yang, </strong> Jianying Zheng, Xiaoqiang Ren, Wen Yang, Hongbo Shi, and Ling Shi</span><br>
+<span style="padding:0px 0px 0px 50px"> IEEE Transactions on Automatic Control, volume 63, no.3, pages 797 - 804, 2018.</span>
+</p>
+</div>
 
 <div name="j3">
 <p style="color:rgb(51,51,51);font-family:verdana,sans-serif;font-size:medium;line-height:2">
