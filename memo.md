@@ -1,5 +1,13 @@
 
 
+### Structure
+
+- home page: 
+   * personal info
+   * photo
+
+
+
 
 ### To prepare: 
 
