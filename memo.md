@@ -9,6 +9,7 @@
    * contact method
 
 - publication
+- notes
 
 - teaching?
 - academic service?
