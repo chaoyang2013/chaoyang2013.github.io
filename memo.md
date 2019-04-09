@@ -12,6 +12,7 @@
 - notes
 - projects
 
+- blog?
 - teaching?
 - academic service?
 
