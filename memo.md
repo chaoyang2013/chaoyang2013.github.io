@@ -10,6 +10,7 @@
 
 - publication
 - notes
+- projects
 
 - teaching?
 - academic service?
