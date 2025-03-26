@@ -24,7 +24,7 @@ Research Interests</h2>
 
 <p style="color:rgb(51,51,51);font-family:verdana,sans-serif;font-size:medium;line-height:2">
 
-<span>Networked Control Systems, State Estimation, Optimal Filtering,Sensor Scheduling, Security in Cyber-Physical Systems.</span>
+<span>Networked Control Systems, Optimal Filtering, Communication Planning in Networked Control Systems, Cooperative Privacy, Social Networks.</span>
 </p>
 
 </div>
@@ -100,7 +100,7 @@ Research Interests</h2>
 
 <div name="publication">
 
-<h2 style="color:rgb(51,51,51)">Publications</h2>
+<h2 style="color:rgb(51,51,51)">Selected Publications</h2>
 
 
 <h3 style="color:rgb(51,51,51)">Journal Publications</h3>
