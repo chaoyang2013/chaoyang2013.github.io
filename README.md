@@ -1,1 +1,1 @@
-A platform to train website writing.
+Hi all!
