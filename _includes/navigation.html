@@ -1,0 +1,22 @@
+<nav class="nav"> 
+  <div class="nav-brand">
+    <a href="{{ '/' | relative_url }}">
+      <img src="{{ site.logo  }}" alt="Logo"  class="brand-logo">
+    </a>  
+    
+    <a href="{{ '/' | relative_url }}" class="brand-link">
+      {{ site.title }}
+    </a>
+  </div>
+
+  <div class="nav-menu">
+  {% for item in site.data.navigation %}
+    <a href= "{{ item.link }}"  {% if page.url == item.link %} class="current" {% endif %} class="nav-link"> 
+      {{ item.name }}
+    </a>
+  {% endfor %} 
+  </div>
+</nav>
+
+
+    

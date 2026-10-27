@@ -1,0 +1,17 @@
+- name: Home
+  link: /
+- name: Biography
+  link: /biography.html 
+- name: Research
+  link: /research.html
+- name: Publication
+  link: /publication.html  
+#- name: Group
+- name: Teaching
+  link: /teaching.html       
+- name: Activities
+  link: /activities.html
+- name: Notes
+  link: /notes.html
+- name: Blog
+  link: /blog.html

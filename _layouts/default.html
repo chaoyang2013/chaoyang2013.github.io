@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    
+    <!-- 基本 favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ '/assets/images/favicon6.ico' | relative_url }}?{{ site.time | date: '%s' }}">
+  
+    <!-- 现代浏览器多尺寸支持 -->
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/assets/images/favicon-16x16.png">
+    
+    <!-- Apple 设备 -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
+
+     
+    {% feed_meta %}
+    {% seo %}
+    
+  </head>
+  <body>
+    <header class="site-header">
+      {% include navigation.html %} 
+    </header>
+
+    <main class="page-content">
+      {{ content }}  
+    </main>
+
+  <footer class="site-footer">
+    {% include footer.html %}
+  </footer>  
+
+  </body>
+</html>

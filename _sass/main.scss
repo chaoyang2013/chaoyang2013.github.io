@@ -1,0 +1,107 @@
+//--------- root ------------
+
+body {
+  font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+//--------home-----------------------------
+
+.home-layout {
+  display: flex;
+  gap: 3rem; // 左右间距
+  align-items: flex-start; // 顶部对齐
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2.5rem 0rem 0rem 0;
+ // padding: 2rem;
+}
+
+.home-left {
+  flex: 0 0 350px; // 固定左侧宽度
+}
+
+.home-right {
+  flex: 1; // 右侧占据剩余空间
+}
+
+.profile-photo {
+  width: 440px;
+  height: 330px;
+ // width: 100%;
+ // border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.work-info {
+  // 工作信息样式
+}
+
+
+//--------biography-----------------------------
+
+/*
+.resume-item {
+  margin-bottom: 2rem;
+    
+  .period {
+    min-width: 120px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .company-logo {
+    height: 35px;
+    vertical-align: middle;
+    transform: translateY(-5px);
+    //margin: 0 8px;
+  }
+  
+  .description {
+    margin-left: 12px;  // period宽度120px + gap12px
+    line-height: 1.6;
+    //color: #555;
+  }
+}
+
+// in main file: 
+<div class="resume-item">
+  <div>
+    <strong class="period">2018.9-Present</strong>
+    <img src="/assets/images/ECUST-logo.png" class="company-logo">    
+  </div> 
+  <p class="description">Associate Professor, Department of Automation, <strong>East China University of Science and Technology</strong>, China</p>
+</div>
+*/
+
+.experience-item {
+  margin-bottom: 2rem;  // 经历项之间的间距
+  
+  .period {
+    min-width: 110px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  // logo样式
+  .company-logo {
+    height: 35px;
+    width: auto;
+    vertical-align: middle;
+    transform: translateY(-5px);  // 微调logo位置
+    //margin-right: 12px;  // 与公司名的间距
+  }
+
+}
+
+.company-logo {
+  height: 35px;
+  //width: auto;
+  //width: 30px;
+  vertical-align: middle;
+  transform: translateY(-5px);
+  margin: 0 8px;
+  opacity: 1;
+}

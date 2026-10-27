@@ -1,0 +1,160 @@
+//--------------------------------------------
+$font-family-acd: "Palatino Linotype", "Book Antiqua", Palatino, Arial, serif, sans-serif;
+$font-family-plain: Arial, serif, sans-serif;
+
+
+
+//----------header part-----------------------
+.site-header {
+  background: rgba(6, 59, 150, 0.95);   //orange: 248, 110, 4; 
+                                          //light blue: 34, 111, 243;
+                                          //normal blue: 4, 79, 207
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  //box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  font-family: $font-family-acd;
+  display: flex;
+  justify-content: flex-start; /* 整体靠左 */
+ // justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  height: 50px;
+}
+
+
+// Brand：Logo和网站名  【下面的子class可以搞出去...不过还是算了】
+.nav-brand {
+  display: flex;
+ // justify-content: flex-start; /* 整体靠左 */
+  align-items: center; /* 上下居中 */
+  gap: 12px;  
+
+  .brand-logo {
+    display: flex;
+    align-items: center; /* 上下居中 */
+    height: 30px; /* 根据实际情况调整  */ 
+    width: auto;
+  }
+
+  .brand-link {
+    //font-family: $font-family-acd;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(255, 192, 0, 1);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    
+    display: flex; // IMPORTANT!!!!! 
+    //justify-content: flex-start; /* 整体靠左 */
+    //justify-content: space-around;
+    
+    &:hover {
+      color: rgb(255, 215, 0);
+    }
+  } 
+}
+
+//网站内导航菜单
+.nav-menu {
+  display: flex;
+  margin-left: auto; 
+}
+
+.nav-link {
+  color: #ffffff !important;                    // 白色字体
+  text-decoration: none !important;             // 去掉下划线
+  font-weight: 500;
+  font-size: 1.1rem;           // 稍大字号
+  letter-spacing: 0.02em;      // 字母间距
+  text-transform: none;        // 保持原大小写，不大写
+  padding: 0.4rem 0.9rem;                         // 增加左右内边距
+  position: relative;
+  transition: all 0.3s ease;
+  border-radius: 6px; 
+
+  &:hover {
+    color: #ffffff !important;
+    background: rgba(255, 255, 255, 0.2);       // 半透明白色背景
+    transform: translateY(-1px);                // 轻微上浮效果
+  }
+
+  &.active {
+    color: #ffffff !important;
+    background: rgba(255, 255, 255, 0.3);       // 更明显的背景
+    font-weight: 600;
+  }
+
+}
+
+//当前页面的菜单标签
+.current {
+  color: #ffffff !important;
+  text-decoration: none !important;  
+  background: rgba(255, 255, 255, 0.2);
+  font-weight: 500;
+  font-size: 1.1rem;           // 稍大字号
+  letter-spacing: 0.02em;      // 字母间距
+  text-transform: none;        // 保持原大小写，不大写
+  padding: 0.4rem 1rem;                         // 增加左右内边距
+  position: relative;
+  transition: all 0.3s ease;
+  border-radius: 6px; 
+}
+
+ 
+//--------------page part----------------------
+
+.page-content {
+  min-height: calc(100vh - 50px); // 减去header和footer高度
+  padding: 0rem 2rem 0.5rem 2%;
+//  padding: 2rem;
+}
+
+
+
+
+//----------footer part-----------------------
+
+.site-footer {
+  background: #d9d9d9;//#DEEBF7;
+
+  border-top: 3px solid rgba(6, 59, 150, 0.95);//rgba(6, 59, 150, 0.95); // 彩色分割线
+  padding: 0rem 0.5rem 1rem 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  
+  // 其他页脚样式
+  text-align: left;
+  color: #000000;//#666;
+
+  .footer-contact {
+    margin-left: 5rem;
+
+    // Contact下方的横线
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 35px;
+      left: 0%;
+      width: 15%;        /* 控制长度 */
+      height: 1px;
+      //background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
+      background: #000000;
+    }
+  }
+}
+
+.counter {
+  margin: 2rem 0 0rem 0;
+  text-align:center;
+}

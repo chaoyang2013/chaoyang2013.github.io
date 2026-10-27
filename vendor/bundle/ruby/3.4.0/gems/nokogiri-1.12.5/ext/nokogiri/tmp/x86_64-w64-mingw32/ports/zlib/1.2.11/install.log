@@ -1,0 +1,16 @@
+if [ "0" = "1" ]; then \
+	mkdir -p 'Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ports/x86_64-w64-mingw32/zlib/1.2.11/bin'; \
+	cp -fp zlib1.dll 'Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ports/x86_64-w64-mingw32/zlib/1.2.11/bin'; \
+	cp -fp libz.dll.a 'Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ports/x86_64-w64-mingw32/zlib/1.2.11/lib'; \
+fi
+cp -fp zlib.h 'Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ports/x86_64-w64-mingw32/zlib/1.2.11/include'
+cp -fp zconf.h 'Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ports/x86_64-w64-mingw32/zlib/1.2.11/include'
+cp -fp libz.a 'Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ports/x86_64-w64-mingw32/zlib/1.2.11/lib'
+sed \
+	-e 's|@prefix@|/usr/local|g' \
+	-e 's|@exec_prefix@|/usr/local|g' \
+	-e 's|@libdir@|Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ports/x86_64-w64-mingw32/zlib/1.2.11/lib|g' \
+	-e 's|@sharedlibdir@|Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ports/x86_64-w64-mingw32/zlib/1.2.11/lib|g' \
+	-e 's|@includedir@|Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ports/x86_64-w64-mingw32/zlib/1.2.11/include|g' \
+	-e 's|@VERSION@|'`sed -n -e '/VERSION "/s/.*"\(.*\)".*/\1/p' zlib.h`'|g' \
+	zlib.pc.in > 'Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ports/x86_64-w64-mingw32/zlib/1.2.11/lib'/pkgconfig/zlib.pc
