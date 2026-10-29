@@ -1,0 +1,30 @@
+append_cflags: checking for whether -std=c99 is accepted as CFLAGS... -------------------- yes
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Users\lenovo\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\lenovo\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\CTEX\UserData\miktex\bin;C:\CTEX\MiKTeX\miktex\bin;C:\CTEX\CTeX\ctex\bin;C:\CTEX\CTeX\cct\bin;C:\CTEX\CTeX\ty\bin;C:\CTEX\Ghostscript\gs9.05\bin;C:\CTEX\GSview\gsview;C:\CTEX\WinEdt;D:\Program Files\MATLAB\R2014a\runtime\win64;D:\Program Files\MATLAB\R2014a\bin;D:\Program Files\MATLAB\R2014a\polyspace\bin;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin;C:\Program Files\Git\cmd;D:\ProgramFiles\MATLAB\R2024a\bin;C:\msys64\ucrt64\bin;C:\Program Files\GitHub CLI;C:\Ruby34-x64\bin;D:\ProgramFiles\anaconda3;D:\ProgramFiles\anaconda3\Library\mingw-w64\bin;D:\ProgramFiles\anaconda3\Library\usr\bin;D:\ProgramFiles\anaconda3\Library\bin;D:\ProgramFiles\anaconda3\Scripts;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;D:\ProgramFiles\Ruby33-x64\msys64\usr\bin;C:\Ruby33-x64\msys64\usr\bin;D:\ProgramFiles\Microsoft VS Code\bin;C:\Users\lenovo\AppData\Local\GitHubDesktop\bin;C:\Ruby33-x64\lib\ruby\gems\3.3.0\gems\bundler-2.6.8;C:\CTEX\UserData\miktex\bin;D:\ProgramFiles\PyCharm 2026.2.3\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl" ASAN_OPTIONS=detect_leaks=0 "gcc -o conftest.exe -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong conftest.c -L. -LC:/Ruby34-x64/lib -L. -pipe -s -fstack-protector-strong -lpthread -Wl,--no-as-needed     -lx64-ucrt-ruby340  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main(int argc, char **argv)
+6: {
+7:   return !!argv[argc];
+8: }
+/* end */
+
+PATH=".;C:/Ruby34-x64/lib;C:\Ruby34-x64\bin;C:\Ruby34-x64\msys64\ucrt64\bin;C:\Ruby34-x64\msys64\usr\bin;C:\Users\lenovo\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\lenovo\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\CTEX\UserData\miktex\bin;C:\CTEX\MiKTeX\miktex\bin;C:\CTEX\CTeX\ctex\bin;C:\CTEX\CTeX\cct\bin;C:\CTEX\CTeX\ty\bin;C:\CTEX\Ghostscript\gs9.05\bin;C:\CTEX\GSview\gsview;C:\CTEX\WinEdt;D:\Program Files\MATLAB\R2014a\runtime\win64;D:\Program Files\MATLAB\R2014a\bin;D:\Program Files\MATLAB\R2014a\polyspace\bin;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin;C:\Program Files\Git\cmd;D:\ProgramFiles\MATLAB\R2024a\bin;C:\msys64\ucrt64\bin;C:\Program Files\GitHub CLI;C:\Ruby34-x64\bin;D:\ProgramFiles\anaconda3;D:\ProgramFiles\anaconda3\Library\mingw-w64\bin;D:\ProgramFiles\anaconda3\Library\usr\bin;D:\ProgramFiles\anaconda3\Library\bin;D:\ProgramFiles\anaconda3\Scripts;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;D:\ProgramFiles\Ruby33-x64\msys64\usr\bin;C:\Ruby33-x64\msys64\usr\bin;D:\ProgramFiles\Microsoft VS Code\bin;C:\Users\lenovo\AppData\Local\GitHubDesktop\bin;C:\Ruby33-x64\lib\ruby\gems\3.3.0\gems\bundler-2.6.8;C:\CTEX\UserData\miktex\bin;D:\ProgramFiles\PyCharm 2026.2.3\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl" ASAN_OPTIONS=detect_leaks=0 "gcc -IC:/Ruby34-x64/include/ruby-3.4.0/x64-mingw-ucrt -IC:/Ruby34-x64/include/ruby-3.4.0/ruby/backward -IC:/Ruby34-x64/include/ruby-3.4.0 -I. -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fstack-protector-strong  -std=c99 -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main(int argc, char **argv)
+6: {
+7:   return !!argv[argc];
+8: }
+/* end */
+
+--------------------
+

@@ -1,0 +1,18 @@
+current directory: Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/posix-spawn-0.3.15/ext
+C:/Ruby34-x64/bin/ruby.exe extconf.rb
+
+current directory: Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/posix-spawn-0.3.15/ext
+make DESTDIR\= sitearchdir\=./.gem.20261028-73628-nf89wt sitelibdir\=./.gem.20261028-73628-nf89wt clean
+make: *** 没有规则可制作目标“clean”。 停止。
+
+current directory: Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/posix-spawn-0.3.15/ext
+make DESTDIR\= sitearchdir\=./.gem.20261028-73628-nf89wt sitelibdir\=./.gem.20261028-73628-nf89wt
+make: 对“default”无需做任何事。
+
+current directory: Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/posix-spawn-0.3.15/ext
+make DESTDIR\= sitearchdir\=./.gem.20261028-73628-nf89wt sitelibdir\=./.gem.20261028-73628-nf89wt install
+make: 对“install”无需做任何事。
+
+current directory: Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/posix-spawn-0.3.15/ext
+make DESTDIR\= sitearchdir\=./.gem.20261028-73628-nf89wt sitelibdir\=./.gem.20261028-73628-nf89wt clean
+make: *** 没有规则可制作目标“clean”。 停止。

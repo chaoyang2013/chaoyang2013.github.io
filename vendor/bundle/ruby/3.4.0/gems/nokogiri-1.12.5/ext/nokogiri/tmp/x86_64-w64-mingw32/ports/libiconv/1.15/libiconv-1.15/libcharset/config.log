@@ -619,7 +619,7 @@ configure:11764: checking for unistd.h
 configure:11764: result: yes
 configure:11783: checking for symlink
 configure:11783: gcc -o conftest.exe -O2 -U_FORTIFY_SOURCE -g -fPIC -Wall  conftest.c  >&5
-C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\ccUQGcrV.o: in function `main':
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\ccWzQRET.o: in function `main':
 Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/libcharset/conftest.c:62:(.text.startup+0xa): undefined reference to `symlink'
 collect2.exe: error: ld returned 1 exit status
 configure:11783: $? = 1

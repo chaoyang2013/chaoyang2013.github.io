@@ -745,7 +745,7 @@ configure:14879: checking for shared library run path origin
 configure:14892: result: done
 configure:15470: checking for iconv
 configure:15494: gcc -o conftest.exe -O2 -U_FORTIFY_SOURCE -g -fPIC -Wall  conftest.c  >&5
-C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\ccO8GOnW.o: in function `main':
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\cceFzaJe.o: in function `main':
 Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/conftest.c:46:(.text.startup+0x15): undefined reference to `libiconv_open'
 C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/conftest.c:47:(.text.startup+0x31): undefined reference to `libiconv'
 C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/conftest.c:48:(.text.startup+0x39): undefined reference to `libiconv_close'
@@ -950,7 +950,7 @@ configure: failed program was:
 configure:16135: result: no
 configure:16184: checking for GNU gettext in libc
 configure:16213: gcc -o conftest.exe -O2 -U_FORTIFY_SOURCE -g -fPIC -Wall  conftest.c  >&5
-C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\cclwtPAi.o: in function `main':
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\cc2tUwTd.o: in function `main':
 Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/conftest.c:56:(.text.startup+0x15): undefined reference to `libintl_bindtextdomain'
 C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/conftest.c:57:(.text.startup+0x21): undefined reference to `libintl_gettext'
 C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/conftest.c:57:(.text.startup+0x36): undefined reference to `libintl_ngettext'
@@ -1045,7 +1045,7 @@ configure:17207: $? = 0
 configure:17214: result: yes
 configure:17241: checking for getc_unlocked
 configure:17241: gcc -o conftest.exe -O2 -U_FORTIFY_SOURCE -g -fPIC -Wall  conftest.c  >&5
-C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\cci4Mrgk.o: in function `main':
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\ccQg4yMO.o: in function `main':
 Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/conftest.c:81:(.text.startup+0xa): undefined reference to `getc_unlocked'
 collect2.exe: error: ld returned 1 exit status
 configure:17241: $? = 1
@@ -1361,7 +1361,7 @@ configure:17345: checking for sys/stat.h
 configure:17345: result: yes
 configure:17364: checking for symlink
 configure:17364: gcc -o conftest.exe -O2 -U_FORTIFY_SOURCE -g -fPIC -Wall  conftest.c  >&5
-C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\ccC37cdj.o: in function `main':
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\cc2PQKwv.o: in function `main':
 Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/conftest.c:95:(.text.startup+0xa): undefined reference to `symlink'
 collect2.exe: error: ld returned 1 exit status
 configure:17364: $? = 1
@@ -1467,7 +1467,7 @@ configure: failed program was:
 configure:17364: result: no
 configure:17364: checking for canonicalize_file_name
 configure:17364: gcc -o conftest.exe -O2 -U_FORTIFY_SOURCE -g -fPIC -Wall  conftest.c  >&5
-C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\cccxswfE.o: in function `main':
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\cceFAeUN.o: in function `main':
 Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/conftest.c:95:(.text.startup+0xa): undefined reference to `canonicalize_file_name'
 collect2.exe: error: ld returned 1 exit status
 configure:17364: $? = 1
@@ -1577,7 +1577,7 @@ configure:17364: $? = 0
 configure:17364: result: yes
 configure:17364: checking for readlink
 configure:17364: gcc -o conftest.exe -O2 -U_FORTIFY_SOURCE -g -fPIC -Wall  conftest.c  >&5
-C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\ccIEkrcJ.o: in function `main':
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\ccq7qJIw.o: in function `main':
 Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/conftest.c:96:(.text.startup+0xa): undefined reference to `readlink'
 collect2.exe: error: ld returned 1 exit status
 configure:17364: $? = 1
@@ -1684,7 +1684,7 @@ configure: failed program was:
 configure:17364: result: no
 configure:17364: checking for realpath
 configure:17364: gcc -o conftest.exe -O2 -U_FORTIFY_SOURCE -g -fPIC -Wall  conftest.c  >&5
-C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\cc0waiAI.o: in function `main':
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\ccKo16kK.o: in function `main':
 Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/conftest.c:96:(.text.startup+0xa): undefined reference to `realpath'
 collect2.exe: error: ld returned 1 exit status
 configure:17364: $? = 1
@@ -1791,7 +1791,7 @@ configure: failed program was:
 configure:17364: result: no
 configure:17364: checking for readlinkat
 configure:17364: gcc -o conftest.exe -O2 -U_FORTIFY_SOURCE -g -fPIC -Wall  conftest.c  >&5
-C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\ccUOfKKi.o: in function `main':
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\ccSbXv15.o: in function `main':
 Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/conftest.c:96:(.text.startup+0xa): undefined reference to `readlinkat'
 collect2.exe: error: ld returned 1 exit status
 configure:17364: $? = 1
@@ -1898,7 +1898,7 @@ configure: failed program was:
 configure:17364: result: no
 configure:17364: checking for getprogname
 configure:17364: gcc -o conftest.exe -O2 -U_FORTIFY_SOURCE -g -fPIC -Wall  conftest.c  >&5
-C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\ccgR7lGx.o: in function `main':
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\ccG38dPx.o: in function `main':
 Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/conftest.c:96:(.text.startup+0xa): undefined reference to `getprogname'
 collect2.exe: error: ld returned 1 exit status
 configure:17364: $? = 1
@@ -2005,7 +2005,7 @@ configure: failed program was:
 configure:17364: result: no
 configure:17364: checking for getexecname
 configure:17364: gcc -o conftest.exe -O2 -U_FORTIFY_SOURCE -g -fPIC -Wall  conftest.c  >&5
-C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\ccA8J3NW.o: in function `main':
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\ccA74vJf.o: in function `main':
 Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/conftest.c:96:(.text.startup+0xa): undefined reference to `getexecname'
 collect2.exe: error: ld returned 1 exit status
 configure:17364: $? = 1
@@ -2116,7 +2116,7 @@ configure:17364: $? = 0
 configure:17364: result: yes
 configure:17364: checking for lstat
 configure:17364: gcc -o conftest.exe -O2 -U_FORTIFY_SOURCE -g -fPIC -Wall  conftest.c  >&5
-C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\ccGQnI0k.o: in function `main':
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\ccQVBJmh.o: in function `main':
 Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/conftest.c:97:(.text.startup+0xa): undefined reference to `lstat'
 collect2.exe: error: ld returned 1 exit status
 configure:17364: $? = 1
@@ -2228,7 +2228,7 @@ configure:17364: $? = 0
 configure:17364: result: yes
 configure:17364: checking for setenv
 configure:17364: gcc -o conftest.exe -O2 -U_FORTIFY_SOURCE -g -fPIC -Wall  conftest.c  >&5
-C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\ccwZLEqm.o: in function `main':
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\ccSqoMm5.o: in function `main':
 Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/conftest.c:98:(.text.startup+0xa): undefined reference to `setenv'
 collect2.exe: error: ld returned 1 exit status
 configure:17364: $? = 1
@@ -3307,7 +3307,7 @@ configure: failed program was:
 configure:18910: result: no
 configure:18923: checking for strerror_r
 configure:18923: gcc -o conftest.exe -O2 -U_FORTIFY_SOURCE -g -fPIC -Wall  conftest.c  >&5
-C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\cc2EYjN8.o: in function `main':
+C:/Ruby34-x64/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:\Users\lenovo\AppData\Local\Temp\ccSsP2w7.o: in function `main':
 Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/nokogiri-1.12.5/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.15/libiconv-1.15/conftest.c:106:(.text.startup+0xa): undefined reference to `strerror_r'
 collect2.exe: error: ld returned 1 exit status
 configure:18923: $? = 1

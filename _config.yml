@@ -1,6 +1,8 @@
 title: Chao Yang's Homepage
 logo: "/assets/images/logo.png"
 
+repository: chaoyang2013/chaoyang2013.github.io
+
 collections:
   notes:
     output: true

@@ -1,0 +1,20 @@
+current directory: Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/fast-stemmer-1.0.2/ext
+C:/Ruby34-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/fast-stemmer-1.0.2/ext
+make DESTDIR\= sitearchdir\=./.gem.20261028-73628-tbcmwt sitelibdir\=./.gem.20261028-73628-tbcmwt clean
+
+current directory: Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/fast-stemmer-1.0.2/ext
+make DESTDIR\= sitearchdir\=./.gem.20261028-73628-tbcmwt sitelibdir\=./.gem.20261028-73628-tbcmwt
+generating stemmer-x64-mingw-ucrt.def
+compiling porter.c
+compiling porter_wrap.c
+linking shared-object stemmer.so
+
+current directory: Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/fast-stemmer-1.0.2/ext
+make DESTDIR\= sitearchdir\=./.gem.20261028-73628-tbcmwt sitelibdir\=./.gem.20261028-73628-tbcmwt install
+/usr/bin/install -c -m 0755 stemmer.so ./.gem.20261028-73628-tbcmwt
+
+current directory: Y:/RPracProject/Webpages/GitHub_Pages/chaoyang2013.github.io/vendor/bundle/ruby/3.4.0/gems/fast-stemmer-1.0.2/ext
+make DESTDIR\= sitearchdir\=./.gem.20261028-73628-tbcmwt sitelibdir\=./.gem.20261028-73628-tbcmwt clean
