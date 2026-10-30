@@ -1,9 +1,11 @@
 ---
 #layout: post
-
+published: true
 ---
 
 Today I start to use a brand new version of my acedamic homepage! Excited.
+
+{% comment %}
 
 The excellence of this version: 1) multiple pages, 2) nice layout design, 3) a personal logo, 4) my beloved color theme.
 
@@ -28,3 +30,5 @@ it is like a report
 my true kpi , for myself
 
 for personal accumulation
+
+{% endcomment %}
