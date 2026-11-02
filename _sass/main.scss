@@ -25,11 +25,12 @@ body {
 
 .home-right {
   flex: 1; // 右侧占据剩余空间
+  margin-top: -20px; // YC: Here a little bit pull up the right part
 }
 
 .profile-photo {
   width: 440px;
-  height: 330px;
+//  height: 330px;
  // width: 100%;
  // border-radius: 8px;
   margin-bottom: 1.5rem;
