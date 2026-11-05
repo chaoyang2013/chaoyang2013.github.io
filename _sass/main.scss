@@ -106,3 +106,14 @@ body {
   margin: 0 8px;
   opacity: 1;
 }
+
+
+//--------activity-----------------------------
+
+.dash-list {
+
+  > li::marker {
+    content: "- ";
+  }
+
+}
